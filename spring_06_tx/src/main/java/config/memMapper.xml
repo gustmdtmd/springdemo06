@@ -6,6 +6,6 @@
   
   <insert id="ins" parameterType="model.MemDTO">
     INSERT INTO mem(num,name,age,loc)
-    VALUE(#{num}, #{name}, #{age}, #{loc})
+    VALUES(#{num}, #{name}, #{age}, #{loc})
   </insert>
  </mapper>
